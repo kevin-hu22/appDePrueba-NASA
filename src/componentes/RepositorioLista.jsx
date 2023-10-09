@@ -1,6 +1,6 @@
 import React from 'react'
 import { Text, View, FlatList } from 'react-native'
-import DataRepositorio from './data/repositorio.js'
+import DataRepositorio from './data/dataanimalnasa.json'
 import RespositorioItems from './RepositorioItem.jsx'
 
 const RepositorioLista = () => {
