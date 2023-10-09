@@ -6,10 +6,6 @@ import RespositorioItems from './RepositorioItem.jsx'
 const RepositorioLista = () => {
     return (
         <View>
-            <Image
-        source={{ uri: 'https://media.tenor.com/URvoYDDxW0AAAAAC/zooming-out-planet-earth.gif' }} 
-        style={styles.gif}
-      />
         <FlatList
             data={DataRepositorio}
             renderItem={({ item: repo }) => (
@@ -19,16 +15,6 @@ const RepositorioLista = () => {
         </View>
     )
 }
-const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center',
-      },
-      gif: {
-        width:400,
-        height:200, 
-      }
-});
+
 
 export default RepositorioLista

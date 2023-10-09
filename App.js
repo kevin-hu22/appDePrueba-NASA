@@ -9,11 +9,4 @@ export default function App() {
       <MainStack />
     </SafeAreaView>
   )
-
-  {/* <NavigationContainer>
-    <Stack.Navigator>
-      <Stack.Screen name="Home" component={Main} />
-      <Stack.Screen name="Otro" component={Pvista1} />
-    </Stack.Navigator>
-  </NavigationContainer> */}
 }
